@@ -279,11 +279,9 @@ struct Parser {
         size_t total_length = source_line_len + space_before_caret + 3;
 
         std::string error_str;
-        //error_str.reserve(total_length);
 
         size_t offset = 0;
         while (source_line_len--) {
-            //error_str[offset++] 
             error_str += source_start[offset++];
         }
 
@@ -294,7 +292,6 @@ struct Parser {
         }
 
         error_str += '^';
-        //error_str[offset] = '\0';
 
         return error_str;
     }
