@@ -208,7 +208,6 @@ struct Parser {
         }
 
         if (token.type != TokenType::NUMBER) {
-            //throw ParserException("Unexpected character: " + std::string(token.string));
             report_error("Unexpected character: \n");
         }
 
