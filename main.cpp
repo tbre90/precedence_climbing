@@ -63,7 +63,7 @@ struct Lexer {
     Lexer(std::string source) {
         this->source = source;
         this->current_position = 0;
-        this->end = (int)source.length();
+        this->end = source.length();
     }
 
     Token
