@@ -1,6 +1,3 @@
-// Precedence_climbing.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #pragma warning(disable: 26812 26495)
 
 #include <cmath>
